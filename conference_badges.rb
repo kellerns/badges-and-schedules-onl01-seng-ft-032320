@@ -3,8 +3,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
+  array_of_badges = []
+  
   array.each do |name|
-    "Hello, my name is #{name}."
+    array_of_badges << "Hello, my name is #{name}."
   end
 end
 
